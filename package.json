@@ -1,0 +1,11 @@
+{
+  "name": "gestor-expedientes-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/desktop/electron"],
+  "scripts": {
+    "dev:desktop": "npm --workspace apps/desktop/electron run dev",
+    "dev:renderer": "npm --workspace apps/desktop/electron run dev:renderer",
+    "dev:electron": "npm --workspace apps/desktop/electron run dev:electron"
+  }
+}
